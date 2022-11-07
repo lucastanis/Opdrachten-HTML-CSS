@@ -1,0 +1,430 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+  }
+  
+  nav {
+    background-color: #131c27;
+    color: white;
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+  }
+  
+  nav div {
+    display: flex;
+    width: 90vw;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    width: 30vw;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin: 0 1rem;
+  }
+  
+  nav li {
+    margin: 0 1rem;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  
+  h1 {
+    font-family: "Pattaya", sans-serif;
+    font-size: 2.8rem;
+    font-weight: 400;
+    margin: 1rem 0;
+  }
+  
+  h2 {
+    font-size: 4.5rem;
+    margin: 2.5rem;
+  }
+  
+  section {
+    background-color: #999999;
+    background-repeat: none;
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+  }
+  
+  .tbl {
+    background-image: url(./img/img/landing-page.jpg);
+    background-blend-mode: multiply;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  article {
+    margin: 2.5rem;
+    font-weight: 300rem;
+    font-size: 4.5rem;
+  }
+  
+  .tbl button {
+    padding: 2rem 6rem 2rem 6rem;
+    font-size: 2rem;
+    background-color: #4c6e97;
+    color: white;
+    border: 0 none white;
+  }
+  
+  .css1 {
+    background-image: url(./img/img/new-york-page.png);
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-size: 4rem;
+  }
+  
+  .css1 header {
+    margin-left: 3rem;
+  }
+  
+  .css1 h2 {
+    border-bottom: 0.6rem white solid;
+    width: fit-content;
+  }
+  
+  .css1 article {
+    margin-left: 5rem;
+  }
+  
+  .css2 header {
+    background-color: #131c27;
+    color: white;
+    font-size: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+  
+  .css2 h2 {
+    font-size: 4rem;
+    padding-top: 1rem;
+  }
+  
+  .css2 {
+    height: 120vh;
+    background-color: white;
+    margin-bottom: 8rem;
+  }
+  
+  .css2 .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5rem 0rem 5rem 0rem;
+  }
+  
+  .main section {
+    height: 75vh;
+    width: 35rem;
+    background-color: white;
+    box-shadow: 0.3rem 0.5rem 6rem grey;
+  }
+  
+  .main article {
+    font-size: 3rem;
+    text-align: center; 
+  }
+  
+  .main article h3 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+  
+  .css2 img {
+    height: 5rem;
+    margin-top: 2rem;
+  }
+  
+  .css3 {
+    background-image: url(./img/img/contact-mountain.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .css3 article {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 3rem;
+    color: white;
+    height: 50%;
+    width: 50%;
+    text-align: center;
+    font-size: 6rem;
+  }
+
+  .css3 input {
+    margin-top: 2rem;
+  }
+  
+  .css3 button {
+    font-size: 2rem;
+    background-color: #4c6e97;
+    color: white;
+    display: block;
+    width: 100%;
+    height: 5rem;
+    position: relative;
+    top: 5rem;
+    border: 0 none white;
+    border-radius: 0rem 0rem 3rem 3rem;
+  }
+  
+  footer {
+    background-color: #131c27;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    font-size: 4rem;
+    align-items: center;
+  }
+  
+  footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+    list-style-type: none;
+  }
+  
+  
+  form input {
+    width: 20rem;
+  }
+  
+  @media screen and (max-width: 576px) {
+    nav {
+      background-color: #131c27;
+      color: white;
+      width: 100vw;
+      position: fixed;
+      display: flex;
+      justify-content: center;
+      height: 20vh;
+    }
+  
+    nav div {
+      display: flex;
+      width: 90vw;
+      justify-content: center;
+      flex-direction: column;
+    }
+  
+    nav ul {
+      width: 30vw;
+      display: flex;
+      list-style-type: none;
+      justify-content: center;
+      margin: 0 0rem;
+    }
+  
+    nav li {
+      margin: 0 1rem;
+    }
+  
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 2rem;
+    }
+  
+    h1 {
+      font-family: "Pattaya", sans-serif;
+      font-size: 2.8rem;
+      font-weight: 400;
+    }
+  
+    h2 {
+      font-size: 3rem;
+      margin: 2rem;
+    }
+  
+    section {
+      background-color: #999999;
+      background-repeat: none;
+      background-position: center;
+      height: 150vh;
+      background-size: cover;
+    }
+  
+    .tbl {
+      background-image: url(./img/img/landing-page.jpg);
+      background-blend-mode: multiply;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  
+    article {
+      margin: 2rem;
+      font-weight: 300rem;
+      font-size: 3rem;
+      width: 60vw;
+    }
+  
+    .tbl button {
+      padding: 2rem 6rem 2rem 6rem;
+      font-size: 2rem;
+      background-color: #4c6e97;
+      color: white;
+      border: 0 none white;
+      margin: 2rem;
+    }
+  
+    .css1 {
+      background-image: url("./img/img/new-york-page.png");
+      flex-direction: column;
+      justify-content: center;
+      display: flex;
+      color: white;
+      font-size: 4rem;
+    }
+  
+    .css1 h2 {
+      font-size: 4rem;
+    }
+  
+    .css1 article {
+      width: 70vw;
+    }
+  
+    .css2 header {
+      background-color: #131c27;
+      color: white;
+      font-size: 4rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding-bottom: 3rem;
+    }
+  
+    .css2 h2 {
+      font-size: 4rem;
+      padding-top: 1rem;
+    }
+  
+    .css2 {
+      height: inherit;
+      background-color: white;
+    }
+  
+    .css2 header p {
+      width: 80vw;
+    }
+  
+    .css2 .main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 0 7rem;
+    }
+  
+    .main section {
+      height: 100vh;
+      width: 70vw;
+      background-color: white;
+      box-shadow: 0.3rem 0.5rem 6rem grey;
+      margin: 2rem;
+    }
+  
+    .main article {
+      font-size: 2.5rem;
+      text-align: center;
+    }
+  
+    .main article h3 {
+      font-size: 3rem;
+      margin-bottom: 3rem;
+    }
+  
+    .css2 img {
+      height: 5rem;
+      margin-top: 2rem;
+    }
+  
+    .css3 {
+      background-image: url("./img/img/contact-mountain.png");
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .css3 article {
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 3rem;
+      color: white;
+      height: 60vh;
+      width: 75vw;
+      text-align: center;
+      font-size: 6rem;
+    }
+  
+    .css3 button {
+      font-size: 2rem;
+      background-color: #4c6e97;
+      color: white;
+      display: block;
+      width: 100%;
+      height: 5rem;
+      position: relative;
+      top: 5rem;
+      border: 0 none white;
+      border-radius: 0rem 0rem 3rem 3rem;
+    }
+  
+    footer {
+      background-color: #131c27;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem 3rem;
+      font-size: 4rem;
+      align-items: center;
+      flex-direction: column;
+    }
+  
+    footer ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 80vw;
+      list-style-type: none;
+      margin-top: 2rem;
+    }
+    form input {
+      width: 20rem;
+    }
+  }

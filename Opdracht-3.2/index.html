@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>BOEKINGSFORMULIER</h1>
+    <p>-------------------------------------------------------------------------------------------------------------------------------------------</p>
+    <form>
+      <label for="fname">Voornaam:</label>
+      <br>
+      <input type="text" id="fname" name="fname" pattern="[A-Za-z]{3}">
+      <br>
+      <label for="lname">Achternaam:</label>
+      <br>
+      <input type="text" id="lname" name="lname" pattern="[A-Za-z]{3}">
+      <br>
+      <br>
+      <p1>Geslacht:</p1>
+      <br>
+      <input type="radio" id="html" name="fav_language" value="HTML" checked>
+      <label for="html">Man</label>
+      <br>
+      <input type="radio" id="css" name="fav_language" value="CSS">
+      <label for="css">Vrouw</label>
+      <br>
+      <label for="street">Straat en huisnummer:</label>
+      <br>
+      <input type="text" id="street" name="street">
+      <br>
+      <label for="postcode">Postcode:</label>
+      <br>
+      <input type="text" id="postcode" name="postcode">
+      <br>
+      <label for="city">Stad:</label>
+      <br>
+      <input type="text" id="city" name="city">
+      <br>
+      <label for="country">Land:</label>
+      <br>
+      <input type="text" id="land" name="land">
+      <br>
+      <label for="bsn number">BSN Nummer:</label>
+      <br>
+      <input type="text" id="bsn number" name="bsn number" "
+pattern=" [A-Za-z]{9}">
+      <br>
+      <label for="cars">Kies uw land</label>
+      <br>
+      <select id="cars" name="cars">
+        <option value="Bulgarije">Zweden</option>
+        <option value="Turkije">Denemarken</option>
+        <option value="Spanjet">Spanje</option>
+        <option value="Duitsland">Portugal</option>
+      </select>
+      <p>Hoelang gaat u op vakantie?</p>
+      <label for="datemin">Datum voor vertek:</label>
+      <input type="date" id="datemin" name="datemin" min="2022-09-15">
+      <br>
+      <br>
+      <label for="datemin">Datum voor aankomst :</label>
+      <input type="date" id="datemin" name="datemin" min="2022-09-15">
+      <br>
+      <br>
+      <label for="cars">Met hoeveel personen gaat u?</label>
+      <br>
+      <select id="cars" name="cars">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
+      <br>
+      <label for="email">Voer hier uw e-mail in:</label>
+      <input type="email" id="email" name="email">
+      <br>
+      <br>
+      <label for="pwd">Voer hier uw wachtwoord in:</label>
+      <input type="password" id="pwd" name="pwd">
+      <br>
+      <br>
+      <input type="submit" value="Boek nu">
+      <form>
+  </body>
+</html>

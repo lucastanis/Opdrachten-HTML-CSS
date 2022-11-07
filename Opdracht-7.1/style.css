@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+nav{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    background-color: red ;
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    li {
+        justify-content: space-between;
+        list-style-type: none;
+    }
+    .hb {
+        margin-left: 85.5rem;
+        align-items: flex-end;
+        display: none;
+    }
+    section{
+    height: 15rem;
+    width: 100%;
+    }
+    .ss1{
+    background-color: yellow;
+    }
+    .ss2{
+    background-color: orange;
+    }
+    .ss3{
+    background-color: green;
+    }
+    
+    @media only screen and (min-width:768px) and (max-width: 1023px) {
+    
+    nav{
+    display: flex;
+    background-color: purple;
+    padding: 15px;
+    }
+    
+    .ss1{
+    background-color: grey;
+    }
+    
+    .ss2{
+    background-color: bisque;
+    }
+    
+    .ss3{
+    background-color: blue;
+    }
+    
+    section{
+    height: 8rem;
+    padding: 15px;
+    }
+    
+    h1{
+    color: white;
+    }
+    
+    p{
+    display: flex;
+    color: white;
+    }
+    
+    }@media only screen and (min-width:0) and (max-width: 767px) {
+    
+    nav{
+    display: flex;
+    background-color: lightblue;
+    padding: 15px;
+    }
+    .ss1{
+   background-color: lightgreen;
+    }
+    .ss2{
+    background-color: orange;
+    }
+    .ss3{
+    background-color: purple;
+    }
+    section{
+    height: 8rem;
+    padding: 15px;
+    }
+    
+    h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    }
+    
+    p{
+    display: flex;
+    color: white;
+    justify-content: center;
+    }
+    .hb {
+        display: flex;
+    }
+    }

@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    font-family: "Goldman", cursive;
+  }
+  
+  nav {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    min-height: 10vh;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background: #00a8c7;
+    justify-content: space-between;
+    position: fixed;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+  nav li {
+    font-size: 2.5rem;
+    padding: 0 4rem 0 4rem;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  nav img {
+    width: 5vw;
+  }
+  
+  body {
+    background-color: black;
+  }
+  
+  .class1 {
+    color:white;
+    text-align: center;
+    font-size: 50px;
+  }
+  .class2 {
+    float: left;
+    width: 50%;
+    margin-top: 10rem;
+  }
+  .class3 {
+    color: white;
+    margin-top: 18rem;
+    padding-right: 10%;
+    font-size: 1.8vw;
+  }
+  .class4 {
+    color:white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10rem;
+  }
+  .class5 {
+    float: right;
+    width: 50%;
+  }
+  .class6 {
+    color: white;
+    margin-top: 23rem;
+    padding-left: 10%;
+    font-size: 1.8vw;
+  }
+  .class7 {
+    color:white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 27rem;
+  }
+  .class8 {
+    float: left;
+    width: 50%;
+    margin-top: 6rem;
+  }
+  .class9 {
+    color: white;
+    margin-top: 10rem;
+    padding-right: 10%;
+    font-size: 1.8vw;
+  }
+  .class10 {
+    color:white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20rem;
+  }
+  .class11 {
+    float: right;
+    width: 50%;
+  }
+  .class12 {
+    color: white;
+    margin-top: 11rem;
+    padding-left: 10%;
+    font-size: 1.8vw;
+  }
+  footer {
+    margin-top: 20rem;
+    background-color:#00a8c7;
+    color:white;
+    width: 100ww;
+    text-align: center;
+    position: absolute;
+    bottom: 9;
+    padding: 1.8rem 70rem;
+  }

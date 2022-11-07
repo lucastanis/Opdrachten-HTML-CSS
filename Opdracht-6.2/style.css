@@ -1,0 +1,32 @@
+.flex-container {
+    display: flex;
+    justify-content: space-around; 
+    flex-direction: row-reverse;
+
+  }
+
+  .flex-container > div {
+
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 200px;
+    width: 200px;
+    font-size: 30px;
+  }
+
+  .blue{
+    background-color: blue;
+  }
+
+  .black{
+    background-color: black;
+  }
+
+  .red{
+    background-color: red;
+  }
+
+  .green{
+    background-color: green;
+  }
